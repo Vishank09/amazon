@@ -18,7 +18,6 @@ public class BaseLib {
 	@BeforeTest
 	public void setUp() throws MalformedURLException  
 	{
-		
 		capabilities.setCapability("deviceName", "Shubham verma");
 		capabilities.setCapability(CapabilityType.VERSION, "9");
 		capabilities.setCapability("platformName", "Android");
